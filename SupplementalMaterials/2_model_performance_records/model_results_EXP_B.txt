@@ -1,0 +1,115 @@
+WARNING:tensorflow:sample_weight modes were coerced from
+  ...
+    to  
+  ['...']
+WARNING:tensorflow:sample_weight modes were coerced from
+  ...
+    to  
+  ['...']
+Train for 3397 steps, validate for 1036 steps
+Epoch 1/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.8257 - tp: 30482.0000 - fp: 14017.0000 - tn: 94631.0000 - fn: 23842.0000 - accuracy: 0.7677 - precision: 0.6850 - recall: 0.5611 - auc: 0.8097
+Epoch 00001: auc improved from -inf to 0.80980, saving model to weights2.best.hdf5
+3397/3397 [==============================] - 299s 88ms/step - loss: 0.8256 - tp: 30496.0000 - fp: 14018.0000 - tn: 94662.0000 - fn: 23844.0000 - accuracy: 0.7677 - precision: 0.6851 - recall: 0.5612 - auc: 0.8098 - val_loss: 1.0019 - val_tp: 8776.0000 - val_fp: 5283.0000 - val_tn: 27867.0000 - val_fn: 7799.0000 - val_accuracy: 0.7369 - val_precision: 0.6242 - val_recall: 0.5295 - val_auc: 0.7434
+Epoch 2/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7389 - tp: 36207.0000 - fp: 13604.0000 - tn: 95044.0000 - fn: 18117.0000 - accuracy: 0.8054 - precision: 0.7269 - recall: 0.6665 - auc: 0.8493
+Epoch 00002: auc improved from 0.80980 to 0.84937, saving model to weights2.best.hdf5
+3397/3397 [==============================] - 284s 84ms/step - loss: 0.7388 - tp: 36219.0000 - fp: 13608.0000 - tn: 95072.0000 - fn: 18121.0000 - accuracy: 0.8054 - precision: 0.7269 - recall: 0.6665 - auc: 0.8494 - val_loss: 0.9801 - val_tp: 9240.0000 - val_fp: 5877.0000 - val_tn: 27273.0000 - val_fn: 7335.0000 - val_accuracy: 0.7343 - val_precision: 0.6112 - val_recall: 0.5575 - val_auc: 0.7670
+Epoch 3/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7320 - tp: 36569.0000 - fp: 13413.0000 - tn: 95235.0000 - fn: 17755.0000 - accuracy: 0.8088 - precision: 0.7316 - recall: 0.6732 - auc: 0.8520
+Epoch 00003: auc improved from 0.84937 to 0.85202, saving model to weights2.best.hdf5
+3397/3397 [==============================] - 279s 82ms/step - loss: 0.7320 - tp: 36581.0000 - fp: 13417.0000 - tn: 95263.0000 - fn: 17759.0000 - accuracy: 0.8088 - precision: 0.7316 - recall: 0.6732 - auc: 0.8520 - val_loss: 1.0375 - val_tp: 8780.0000 - val_fp: 5405.0000 - val_tn: 27745.0000 - val_fn: 7795.0000 - val_accuracy: 0.7345 - val_precision: 0.6190 - val_recall: 0.5297 - val_auc: 0.7427
+Epoch 4/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7343 - tp: 36519.0000 - fp: 13499.0000 - tn: 95149.0000 - fn: 17805.0000 - accuracy: 0.8079 - precision: 0.7301 - recall: 0.6722 - auc: 0.8519
+Epoch 00004: auc did not improve from 0.85202
+3397/3397 [==============================] - 271s 80ms/step - loss: 0.7343 - tp: 36531.0000 - fp: 13503.0000 - tn: 95177.0000 - fn: 17809.0000 - accuracy: 0.8079 - precision: 0.7301 - recall: 0.6723 - auc: 0.8519 - val_loss: 1.0675 - val_tp: 8257.0000 - val_fp: 6795.0000 - val_tn: 26355.0000 - val_fn: 8318.0000 - val_accuracy: 0.6961 - val_precision: 0.5486 - val_recall: 0.4982 - val_auc: 0.6988
+Epoch 5/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7287 - tp: 36869.0000 - fp: 13453.0000 - tn: 95195.0000 - fn: 17455.0000 - accuracy: 0.8103 - precision: 0.7327 - recall: 0.6787 - auc: 0.8533
+Epoch 00005: auc improved from 0.85202 to 0.85324, saving model to weights2.best.hdf5
+3397/3397 [==============================] - 270s 80ms/step - loss: 0.7288 - tp: 36876.0000 - fp: 13458.0000 - tn: 95222.0000 - fn: 17464.0000 - accuracy: 0.8103 - precision: 0.7326 - recall: 0.6786 - auc: 0.8532 - val_loss: 1.0357 - val_tp: 8483.0000 - val_fp: 5756.0000 - val_tn: 27394.0000 - val_fn: 8092.0000 - val_accuracy: 0.7215 - val_precision: 0.5958 - val_recall: 0.5118 - val_auc: 0.7314
+Epoch 6/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7308 - tp: 36815.0000 - fp: 13324.0000 - tn: 95324.0000 - fn: 17509.0000 - accuracy: 0.8108 - precision: 0.7343 - recall: 0.6777 - auc: 0.8527
+Epoch 00006: auc did not improve from 0.85324
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7309 - tp: 36827.0000 - fp: 13327.0000 - tn: 95353.0000 - fn: 17513.0000 - accuracy: 0.8108 - precision: 0.7343 - recall: 0.6777 - auc: 0.8527 - val_loss: 1.1345 - val_tp: 8136.0000 - val_fp: 5944.0000 - val_tn: 27206.0000 - val_fn: 8439.0000 - val_accuracy: 0.7107 - val_precision: 0.5778 - val_recall: 0.4909 - val_auc: 0.7108
+Epoch 7/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7277 - tp: 36955.0000 - fp: 13396.0000 - tn: 95252.0000 - fn: 17369.0000 - accuracy: 0.8112 - precision: 0.7339 - recall: 0.6803 - auc: 0.8544
+Epoch 00007: auc improved from 0.85324 to 0.85434, saving model to weights2.best.hdf5
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7278 - tp: 36964.0000 - fp: 13402.0000 - tn: 95278.0000 - fn: 17376.0000 - accuracy: 0.8112 - precision: 0.7339 - recall: 0.6802 - auc: 0.8543 - val_loss: 1.0766 - val_tp: 8825.0000 - val_fp: 5515.0000 - val_tn: 27635.0000 - val_fn: 7750.0000 - val_accuracy: 0.7332 - val_precision: 0.6154 - val_recall: 0.5324 - val_auc: 0.7342
+Epoch 8/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7219 - tp: 37016.0000 - fp: 13310.0000 - tn: 95338.0000 - fn: 17308.0000 - accuracy: 0.8121 - precision: 0.7355 - recall: 0.6814 - auc: 0.8560
+Epoch 00008: auc improved from 0.85434 to 0.85599, saving model to weights2.best.hdf5
+3397/3397 [==============================] - 270s 80ms/step - loss: 0.7220 - tp: 37026.0000 - fp: 13314.0000 - tn: 95366.0000 - fn: 17314.0000 - accuracy: 0.8121 - precision: 0.7355 - recall: 0.6814 - auc: 0.8560 - val_loss: 0.9680 - val_tp: 8627.0000 - val_fp: 5086.0000 - val_tn: 28064.0000 - val_fn: 7948.0000 - val_accuracy: 0.7379 - val_precision: 0.6291 - val_recall: 0.5205 - val_auc: 0.7462
+Epoch 9/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7242 - tp: 37138.0000 - fp: 13258.0000 - tn: 95390.0000 - fn: 17186.0000 - accuracy: 0.8132 - precision: 0.7369 - recall: 0.6836 - auc: 0.8557
+Epoch 00009: auc did not improve from 0.85599
+3397/3397 [==============================] - 270s 80ms/step - loss: 0.7242 - tp: 37149.0000 - fp: 13263.0000 - tn: 95417.0000 - fn: 17191.0000 - accuracy: 0.8132 - precision: 0.7369 - recall: 0.6836 - auc: 0.8557 - val_loss: 1.1248 - val_tp: 7507.0000 - val_fp: 5873.0000 - val_tn: 27277.0000 - val_fn: 9068.0000 - val_accuracy: 0.6995 - val_precision: 0.5611 - val_recall: 0.4529 - val_auc: 0.6834
+Epoch 10/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7220 - tp: 36934.0000 - fp: 13273.0000 - tn: 95375.0000 - fn: 17390.0000 - accuracy: 0.8119 - precision: 0.7356 - recall: 0.6799 - auc: 0.8573
+Epoch 00010: auc improved from 0.85599 to 0.85732, saving model to weights2.best.hdf5
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7220 - tp: 36945.0000 - fp: 13278.0000 - tn: 95402.0000 - fn: 17395.0000 - accuracy: 0.8118 - precision: 0.7356 - recall: 0.6799 - auc: 0.8573 - val_loss: 2.5864 - val_tp: 8950.0000 - val_fp: 6920.0000 - val_tn: 26230.0000 - val_fn: 7625.0000 - val_accuracy: 0.7075 - val_precision: 0.5640 - val_recall: 0.5400 - val_auc: 0.6934
+Epoch 11/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7212 - tp: 37249.0000 - fp: 13278.0000 - tn: 95370.0000 - fn: 17075.0000 - accuracy: 0.8138 - precision: 0.7372 - recall: 0.6857 - auc: 0.8569
+Epoch 00011: auc did not improve from 0.85732
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7213 - tp: 37258.0000 - fp: 13283.0000 - tn: 95397.0000 - fn: 17082.0000 - accuracy: 0.8137 - precision: 0.7372 - recall: 0.6856 - auc: 0.8569 - val_loss: 1.6327 - val_tp: 9133.0000 - val_fp: 5861.0000 - val_tn: 27289.0000 - val_fn: 7442.0000 - val_accuracy: 0.7325 - val_precision: 0.6091 - val_recall: 0.5510 - val_auc: 0.7355
+Epoch 12/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7168 - tp: 37384.0000 - fp: 13221.0000 - tn: 95427.0000 - fn: 16940.0000 - accuracy: 0.8149 - precision: 0.7387 - recall: 0.6882 - auc: 0.8594
+Epoch 00012: auc improved from 0.85732 to 0.85935, saving model to weights2.best.hdf5
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7168 - tp: 37393.0000 - fp: 13226.0000 - tn: 95454.0000 - fn: 16947.0000 - accuracy: 0.8149 - precision: 0.7387 - recall: 0.6881 - auc: 0.8593 - val_loss: 1.0652 - val_tp: 8237.0000 - val_fp: 6003.0000 - val_tn: 27147.0000 - val_fn: 8338.0000 - val_accuracy: 0.7116 - val_precision: 0.5784 - val_recall: 0.4970 - val_auc: 0.7102
+
+Epoch 13/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7215 - tp: 37196.0000 - fp: 13284.0000 - tn: 95364.0000 - fn: 17128.0000 - accuracy: 0.8134 - precision: 0.7368 - recall: 0.6847 - auc: 0.8574
+Epoch 00013: auc did not improve from 0.85935
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7217 - tp: 37208.0000 - fp: 13288.0000 - tn: 95392.0000 - fn: 17132.0000 - accuracy: 0.8134 - precision: 0.7369 - recall: 0.6847 - auc: 0.8573 - val_loss: 1.1906 - val_tp: 7164.0000 - val_fp: 6974.0000 - val_tn: 26176.0000 - val_fn: 9411.0000 - val_accuracy: 0.6705 - val_precision: 0.5067 - val_recall: 0.4322 - val_auc: 0.6486
+Epoch 14/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7207 - tp: 37263.0000 - fp: 13257.0000 - tn: 95391.0000 - fn: 17061.0000 - accuracy: 0.8140 - precision: 0.7376 - recall: 0.6859 - auc: 0.8584
+Epoch 00014: auc did not improve from 0.85935
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7207 - tp: 37273.0000 - fp: 13261.0000 - tn: 95419.0000 - fn: 17067.0000 - accuracy: 0.8140 - precision: 0.7376 - recall: 0.6859 - auc: 0.8584 - val_loss: 1.4288 - val_tp: 8223.0000 - val_fp: 6913.0000 - val_tn: 26237.0000 - val_fn: 8352.0000 - val_accuracy: 0.6930 - val_precision: 0.5433 - val_recall: 0.4961 - val_auc: 0.6821
+Epoch 15/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7171 - tp: 37305.0000 - fp: 13131.0000 - tn: 95517.0000 - fn: 17019.0000 - accuracy: 0.8150 - precision: 0.7397 - recall: 0.6867 - auc: 0.8591
+Epoch 00015: auc did not improve from 0.85935
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7171 - tp: 37314.0000 - fp: 13135.0000 - tn: 95545.0000 - fn: 17026.0000 - accuracy: 0.8150 - precision: 0.7396 - recall: 0.6867 - auc: 0.8591 - val_loss: 1.1454 - val_tp: 8499.0000 - val_fp: 5678.0000 - val_tn: 27472.0000 - val_fn: 8076.0000 - val_accuracy: 0.7234 - val_precision: 0.5995 - val_recall: 0.5128 - val_auc: 0.7210
+Epoch 16/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7216 - tp: 37232.0000 - fp: 13266.0000 - tn: 95382.0000 - fn: 17092.0000 - accuracy: 0.8137 - precision: 0.7373 - recall: 0.6854 - auc: 0.8576
+Epoch 00016: auc did not improve from 0.85935
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7217 - tp: 37242.0000 - fp: 13272.0000 - tn: 95408.0000 - fn: 17098.0000 - accuracy: 0.8137 - precision: 0.7373 - recall: 0.6854 - auc: 0.8575 - val_loss: 1.3004 - val_tp: 6085.0000 - val_fp: 7955.0000 - val_tn: 25195.0000 - val_fn: 10490.0000 - val_accuracy: 0.6291 - val_precision: 0.4334 - val_recall: 0.3671 - val_auc: 0.5977
+Epoch 17/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7165 - tp: 37505.0000 - fp: 13243.0000 - tn: 95405.0000 - fn: 16819.0000 - accuracy: 0.8155 - precision: 0.7390 - recall: 0.6904 - auc: 0.8605
+Epoch 00017: auc improved from 0.85935 to 0.86048, saving model to weights2.best.hdf5
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7165 - tp: 37519.0000 - fp: 13244.0000 - tn: 95436.0000 - fn: 16821.0000 - accuracy: 0.8156 - precision: 0.7391 - recall: 0.6904 - auc: 0.8605 - val_loss: 1.1468 - val_tp: 7851.0000 - val_fp: 6558.0000 - val_tn: 26592.0000 - val_fn: 8724.0000 - val_accuracy: 0.6927 - val_precision: 0.5449 - val_recall: 0.4737 - val_auc: 0.6810
+Epoch 18/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7118 - tp: 37514.0000 - fp: 13004.0000 - tn: 95644.0000 - fn: 16810.0000 - accuracy: 0.8171 - precision: 0.7426 - recall: 0.6906 - auc: 0.8623
+Epoch 00018: auc improved from 0.86048 to 0.86235, saving model to weights2.best.hdf5
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7118 - tp: 37527.0000 - fp: 13007.0000 - tn: 95673.0000 - fn: 16813.0000 - accuracy: 0.8171 - precision: 0.7426 - recall: 0.6906 - auc: 0.8624 - val_loss: 1.1341 - val_tp: 8000.0000 - val_fp: 5694.0000 - val_tn: 27456.0000 - val_fn: 8575.0000 - val_accuracy: 0.7130 - val_precision: 0.5842 - val_recall: 0.4827 - val_auc: 0.7001
+Epoch 19/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7078 - tp: 37552.0000 - fp: 12924.0000 - tn: 95724.0000 - fn: 16772.0000 - accuracy: 0.8178 - precision: 0.7440 - recall: 0.6913 - auc: 0.8627
+Epoch 00019: auc improved from 0.86235 to 0.86270, saving model to weights2.best.hdf5
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7077 - tp: 37565.0000 - fp: 12927.0000 - tn: 95753.0000 - fn: 16775.0000 - accuracy: 0.8178 - precision: 0.7440 - recall: 0.6913 - auc: 0.8627 - val_loss: 1.4714 - val_tp: 8477.0000 - val_fp: 6313.0000 - val_tn: 26837.0000 - val_fn: 8098.0000 - val_accuracy: 0.7102 - val_precision: 0.5732 - val_recall: 0.5114 - val_auc: 0.7072
+Epoch 20/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7107 - tp: 37598.0000 - fp: 13097.0000 - tn: 95551.0000 - fn: 16726.0000 - accuracy: 0.8170 - precision: 0.7417 - recall: 0.6921 - auc: 0.8627
+Epoch 00020: auc did not improve from 0.86270
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7108 - tp: 37606.0000 - fp: 13104.0000 - tn: 95576.0000 - fn: 16734.0000 - accuracy: 0.8170 - precision: 0.7416 - recall: 0.6921 - auc: 0.8627 - val_loss: 1.3898 - val_tp: 7539.0000 - val_fp: 6982.0000 - val_tn: 26168.0000 - val_fn: 9036.0000 - val_accuracy: 0.6779 - val_precision: 0.5192 - val_recall: 0.4548 - val_auc: 0.6648
+Epoch 21/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7099 - tp: 37835.0000 - fp: 13033.0000 - tn: 95615.0000 - fn: 16489.0000 - accuracy: 0.8189 - precision: 0.7438 - recall: 0.6965 - auc: 0.8630
+Epoch 00021: auc improved from 0.86270 to 0.86301, saving model to weights2.best.hdf5
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7099 - tp: 37843.0000 - fp: 13041.0000 - tn: 95639.0000 - fn: 16497.0000 - accuracy: 0.8188 - precision: 0.7437 - recall: 0.6964 - auc: 0.8630 - val_loss: 1.3242 - val_tp: 8164.0000 - val_fp: 6586.0000 - val_tn: 26564.0000 - val_fn: 8411.0000 - val_accuracy: 0.6984 - val_precision: 0.5535 - val_recall: 0.4925 - val_auc: 0.6904
+Epoch 22/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7129 - tp: 37942.0000 - fp: 12986.0000 - tn: 95662.0000 - fn: 16382.0000 - accuracy: 0.8198 - precision: 0.7450 - recall: 0.6984 - auc: 0.8634
+Epoch 00022: auc improved from 0.86301 to 0.86337, saving model to weights2.best.hdf5
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7129 - tp: 37952.0000 - fp: 12990.0000 - tn: 95690.0000 - fn: 16388.0000 - accuracy: 0.8198 - precision: 0.7450 - recall: 0.6984 - auc: 0.8634 - val_loss: 1.8955 - val_tp: 9193.0000 - val_fp: 6174.0000 - val_tn: 26976.0000 - val_fn: 7382.0000 - val_accuracy: 0.7274 - val_precision: 0.5982 - val_recall: 0.5546 - val_auc: 0.7212
+Epoch 23/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7148 - tp: 37611.0000 - fp: 13018.0000 - tn: 95630.0000 - fn: 16713.0000 - accuracy: 0.8176 - precision: 0.7429 - recall: 0.6923 - auc: 0.8637
+Epoch 00023: auc improved from 0.86337 to 0.86374, saving model to weights2.best.hdf5
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7147 - tp: 37624.0000 - fp: 13021.0000 - tn: 95659.0000 - fn: 16716.0000 - accuracy: 0.8176 - precision: 0.7429 - recall: 0.6924 - auc: 0.8637 - val_loss: 1.2402 - val_tp: 7331.0000 - val_fp: 6832.0000 - val_tn: 26318.0000 - val_fn: 9244.0000 - val_accuracy: 0.6767 - val_precision: 0.5176 - val_recall: 0.4423 - val_auc: 0.6613
+Epoch 24/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7107 - tp: 37954.0000 - fp: 12982.0000 - tn: 95666.0000 - fn: 16370.0000 - accuracy: 0.8199 - precision: 0.7451 - recall: 0.6987 - auc: 0.8630
+Epoch 00024: auc did not improve from 0.86374
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7108 - tp: 37965.0000 - fp: 12987.0000 - tn: 95693.0000 - fn: 16375.0000 - accuracy: 0.8199 - precision: 0.7451 - recall: 0.6987 - auc: 0.8630 - val_loss: 2.9020 - val_tp: 8559.0000 - val_fp: 6889.0000 - val_tn: 26261.0000 - val_fn: 8016.0000 - val_accuracy: 0.7003 - val_precision: 0.5541 - val_recall: 0.5164 - val_auc: 0.6927
+
+Epoch 25/25
+3396/3397 [============================>.] - ETA: 0s - loss: 0.7075 - tp: 37616.0000 - fp: 12963.0000 - tn: 95685.0000 - fn: 16708.0000 - accuracy: 0.8179 - precision: 0.7437 - recall: 0.6924 - auc: 0.8641
+Epoch 00025: auc improved from 0.86374 to 0.86407, saving model to weights2.best.hdf5
+3397/3397 [==============================] - 270s 79ms/step - loss: 0.7075 - tp: 37627.0000 - fp: 12968.0000 - tn: 95712.0000 - fn: 16713.0000 - accuracy: 0.8179 - precision: 0.7437 - recall: 0.6924 - auc: 0.8641 - val_loss: 1.4348 - val_tp: 7372.0000 - val_fp: 7493.0000 - val_tn: 25657.0000 - val_fn: 9203.0000 - val_accuracy: 0.6642 - val_precision: 0.4959 - val_recall: 0.4448 - val_auc: 0.6502
+
+def plot_loss(history, label, n):
+
+  # Use a log scale to show the wide 
